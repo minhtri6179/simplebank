@@ -2,7 +2,7 @@ version: "1"
 packages:
   [
     {
-      "path": "db",
+      "path": "./db/sqlc",
       "engine": "postgresql",
       "schema": "./db/migration/",
       "queries": "./db/query/",
