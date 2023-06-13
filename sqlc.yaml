@@ -6,6 +6,7 @@ packages:
       "engine": "postgresql",
       "schema": "./db/migration/",
       "queries": "./db/query/",
-      "emit_empty_slices": True,
+      "emit_empty_slices": true,
+      "emit_interface": true,
     },
   ]
